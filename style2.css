@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Secular+One&display=swap");
+
+body {
+  background-color: rgb(145, 146, 157);
+  width: 92%;
+  margin: 45px auto 0 auto;
+}
+
+header {
+  color: white;
+  font-size: 30px;
+  font-family: "Secular One", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+header .margem_tit {
+  margin-left: 33%;
+}
+
+header .margem_bot {
+  margin-right: 60px;
+}
+
+header .botao2 {
+  padding-top: 15px;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+}
+
+header h1 {
+  margin-left: 15px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 55px;
+}
+
+main {
+  background-color: white;
+  width: 100%;
+  height: 1000px;
+  margin: 70px auto 0px auto;
+}
