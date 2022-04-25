@@ -79,7 +79,7 @@ main .h2_prim {
 main .legend_prim {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 20px;
+  margin-top: 6;
   font-weight: lighter;
   color: #848484;
   line-height: 35px;
@@ -136,11 +136,12 @@ main .ling {
   background-color: #eef2f6;
   width: 350px;
   height: 520px;
-  border-radius: 20px;
+  border-radius: 6;
   font-family: "Secular One", sans-serif;
   font-size: 45px;
   color: #848484;
   padding-top: 30px;
+  border-radius: 30px;
 }
 
 main .conhecimento {
@@ -164,7 +165,7 @@ main .marg2 {
   grid-template-rows: 25%;
   margin-top: 60px;
   margin-bottom: 60px;
-  margin-left: 45px;
+  margin-left: 3%;
   justify-content: center;
   text-align: center;
 }
@@ -222,57 +223,6 @@ main .legend_sec {
 
 /* QUARTO BLOCO */
 
-.my_redes {
-  font-family: "Secular One", sans-serif;
-  color: #848484;
-  font-size: 60px;
-  margin-left: 210px;
-  float: left;
-  margin-top: 30px;
-}
-
-.barra_redes {
-  width: 100%;
-  height: 150px;
-  background-color: white;
-  color: #848484;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  text-align: left;
-}
-
-.botao_redes {
-  width: 100px;
-  height: 100px;
-  padding: 0%;
-  border: none;
-  margin-top: 10px;
-  margin-left: 320px;
-}
-
-.botao_redes2 {
-  width: 102px;
-  height: 102px;
-  padding: 0%;
-  border: none;
-  margin-left: 150px;
-}
-
-.botao_redes3 {
-  width: 102px;
-  height: 102px;
-  padding: 0%;
-  border: none;
-  margin-left: 150px;
-}
-
-.redes {
-  width: 100%;
-}
-
-/* QUINTO BLOCO */
-
 main .h2_ter {
   width: calc(50% - 70px);
   height: 540px;
@@ -316,4 +266,21 @@ footer .creditos {
   align-items: center;
   letter-spacing: 2px;
   font-family: "Secular One", sans-serif;
+}
+
+@media (min-width: 1925px) {
+  .grid_logos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 7%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header .margem_tit {
+    margin-left: 1070px;
+  }
 }
