@@ -279,7 +279,7 @@ footer .creditos {
   }
 }
 
-@media (max-width: 1500px, min-width: 950px) {
+@media (max-width: 1500px) {
   /* HEADER */
 
   header {
@@ -459,39 +459,47 @@ footer .creditos {
     font-size: 25px;
     font-family: "Secular One", sans-serif;
     color: rgb(198, 198, 198);
-    word-break: break-all;
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 916px) {
   /* HEADER */
 
   header {
     color: white;
     font-size: 20px;
     font-family: "Secular One", sans-serif;
+    display: inline-block;
+    width: 100%;
   }
 
-  header .margem_tit {
-    margin-left: 6%;
+  header .nav {
+    width: 100%;
+    text-align: center;
   }
 
   header .margem_bot {
-    margin-right: 20px;
+    display: inline-block;
+    margin-right: 4%;
   }
 
   header .botao2 {
-    padding-top: 15px;
-    text-align: right;
-    color: #dee6ec;
+    padding-top: 45px;
+    text-align: center;
+    color: #ffffff;
     text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
   }
 
-  header h1 {
-    margin-left: 15px;
+  h1 {
     font-family: "Abril Fatface", cursive;
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
+    margin-top: 0px;
   }
 
   /* PRIMEIRO BLOCO */
@@ -500,17 +508,16 @@ footer .creditos {
     background-color: white;
     width: 100%;
     height: 2000px;
-    margin: 65px auto 0px auto;
+    margin: 25px auto 0px auto;
   }
 
   main .h2_prim {
-    width: 100%;
+    width: calc(100% - 40px);
     height: 200px;
-    padding: 50px 0px 10px 20px;
-    font-size: 40px;
+    padding: 50px 20px 10px 20px;
+    font-size: 35px;
     font-family: "Secular One", sans-serif;
     color: #1b1b1b;
-    word-break: break-all;
   }
 
   main .legend_prim {
@@ -634,7 +641,6 @@ footer .creditos {
     font-family: "Secular One", sans-serif;
     color: #1b1b1b;
     background-color: #eef2f6;
-    word-break: break-all;
   }
 
   main .legend_sec {
@@ -645,7 +651,6 @@ footer .creditos {
     color: #848484;
     line-height: 35px;
     margin-left: 10px;
-    word-break: break-all;
   }
 
   /* QUARTO BLOCO */
@@ -665,7 +670,6 @@ footer .creditos {
     font-size: 20px;
     font-family: "Secular One", sans-serif;
     color: rgb(198, 198, 198);
-    word-break: break-all;
     margin-top: 40px;
     margin-bottom: -20px;
   }
