@@ -242,11 +242,6 @@ main .h2_ter {
   color: rgb(198, 198, 198);
 }
 
-.float_cont {
-  margin-left: 60px;
-  float: left;
-}
-
 main .mapa {
   float: right;
 }
@@ -281,5 +276,419 @@ footer .creditos {
 
   header .margem_tit {
     margin-left: 1070px;
+  }
+}
+
+@media (max-width: 1500px, min-width: 950px) {
+  /* HEADER */
+
+  header {
+    color: white;
+    font-size: 20px;
+    font-family: "Secular One", sans-serif;
+    display: flex;
+    align-items: center;
+  }
+
+  header .margem_tit {
+    margin-left: 6%;
+  }
+
+  header .margem_bot {
+    margin-right: 20px;
+  }
+
+  header .botao2 {
+    padding-top: 15px;
+    text-align: right;
+    color: #dee6ec;
+    text-decoration: none;
+  }
+
+  header h1 {
+    margin-left: 15px;
+    font-family: "Abril Fatface", cursive;
+    font-size: 35px;
+  }
+
+  /* PRIMEIRO BLOCO */
+
+  main {
+    background-color: white;
+    width: 100%;
+    height: 3000px;
+    margin: 65px auto 0px auto;
+  }
+
+  main .h2_prim {
+    width: calc(50% - 100px);
+    height: 610px;
+    padding: 170px 50px 30px 50px;
+    float: left;
+    font-size: 40px;
+    font-family: "Secular One", sans-serif;
+    color: #1b1b1b;
+  }
+
+  main .legend_prim {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: lighter;
+    color: #848484;
+    line-height: 35px;
+  }
+
+  /* TITULO SEGUNDO BLOCO */
+
+  main .barra1 {
+    width: 75%;
+    height: 100px;
+    background-color: #eef2f6;
+    color: #848484;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    font-family: "Secular One", sans-serif;
+  }
+
+  main .barra2 {
+    text-decoration: none;
+    width: 25%;
+    height: 100px;
+    background-color: #0098e2;
+    float: right;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Secular One", sans-serif;
+  }
+
+  /* SEGUNDO BLOCO */
+  main .logos {
+    width: 100px;
+    margin-top: 25px;
+  }
+
+  main .logo_css {
+    width: 125px;
+    margin-top: 10px;
+  }
+
+  main .ling {
+    background-color: #eef2f6;
+    width: 160px;
+    height: 300px;
+    font-family: "Secular One", sans-serif;
+    font-size: 30px;
+    color: #848484;
+    padding-top: 30px;
+    border-radius: 30px;
+  }
+
+  main .conhecimento {
+    font-family: "Secular One", sans-serif;
+    font-size: 19px;
+    color: #848484;
+    margin-top: 25px;
+  }
+
+  main .marg {
+    margin-top: 15px;
+  }
+
+  main .marg2 {
+    margin-top: 28px;
+  }
+
+  progress {
+    width: 130px;
+    margin-top: 15px;
+  }
+
+  /* TERCEIRO BLOCO */
+
+  main .h2_sec {
+    width: calc(50% - 120px);
+    height: 680px;
+    padding: 100px 60px 30px 60px;
+    float: right;
+    font-size: 50px;
+    font-family: "Secular One", sans-serif;
+    color: #1b1b1b;
+    background-color: #eef2f6;
+  }
+
+  main .legend_sec {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: lighter;
+    color: #848484;
+    line-height: 30px;
+    margin-bottom: 60px;
+  }
+
+  /* QUARTO BLOCO */
+
+  .h2_ter {
+    width: 50%;
+    height: 540px;
+    float: left;
+    padding-top: 170px;
+    font-size: 60px;
+    font-family: "Secular One", sans-serif;
+    color: rgb(226, 226, 226);
+    background-color: #2f3337;
+  }
+
+  .txt_contato {
+    margin: 40px 20px 10px 0px;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Secular One", sans-serif;
+    color: rgb(198, 198, 198);
+    word-break: break-all;
+  }
+}
+
+@media (max-width: 950px) {
+  /* HEADER */
+
+  header {
+    color: white;
+    font-size: 20px;
+    font-family: "Secular One", sans-serif;
+  }
+
+  header .margem_tit {
+    margin-left: 6%;
+  }
+
+  header .margem_bot {
+    margin-right: 20px;
+  }
+
+  header .botao2 {
+    padding-top: 15px;
+    text-align: right;
+    color: #dee6ec;
+    text-decoration: none;
+  }
+
+  header h1 {
+    margin-left: 15px;
+    font-family: "Abril Fatface", cursive;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  /* PRIMEIRO BLOCO */
+
+  main {
+    background-color: white;
+    width: 100%;
+    height: 2000px;
+    margin: 65px auto 0px auto;
+  }
+
+  main .h2_prim {
+    width: 100%;
+    height: 200px;
+    padding: 50px 0px 10px 20px;
+    font-size: 40px;
+    font-family: "Secular One", sans-serif;
+    color: #1b1b1b;
+    word-break: break-all;
+  }
+
+  main .legend_prim {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: lighter;
+    color: #848484;
+    line-height: 35px;
+    margin-right: 20px;
+  }
+
+  main .img_prin {
+    border: none;
+    width: 100%;
+    height: 350px;
+  }
+
+  /* TITULO SEGUNDO BLOCO */
+
+  main .barra1 {
+    width: 70%;
+    height: 100px;
+    background-color: #eef2f6;
+    color: #848484;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 0px;
+    font-family: "Secular One", sans-serif;
+  }
+
+  main .barra2 {
+    text-decoration: none;
+    width: 30%;
+    height: 100px;
+    background-color: #0098e2;
+    float: right;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Secular One", sans-serif;
+  }
+
+  /* SEGUNDO BLOCO */
+  main .logos {
+    width: 80px;
+    margin-top: 15px;
+  }
+
+  main .logo_css {
+    width: 105px;
+    margin-top: 6px;
+  }
+
+  main .ling {
+    background-color: #eef2f6;
+    width: 140px;
+    height: 235px;
+    font-family: "Secular One", sans-serif;
+    font-size: 26px;
+    color: #727272;
+    padding-top: 30px;
+    border-radius: 30px;
+  }
+
+  .grid_logos {
+    display: grid;
+    grid-template-columns: 45% 34%;
+    grid-template-rows: 53%;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-left: -20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  main .conhecimento {
+    font-family: "Secular One", sans-serif;
+    font-size: 15px;
+    color: #848484;
+    margin-top: 15px;
+  }
+
+  main .marg {
+    margin-top: 0px;
+  }
+
+  main .marg2 {
+    margin-top: 16px;
+  }
+
+  progress {
+    width: 110px;
+    margin-top: 15px;
+  }
+
+  /* TERCEIRO BLOCO */
+
+  main .img_sec {
+    border: none;
+    width: 100%;
+    height: 350px;
+  }
+
+  main .h2_sec {
+    width: calc(100% - 40px);
+    height: 380px;
+    padding: 40px 20px 40px 20px;
+    font-size: 37px;
+    font-family: "Secular One", sans-serif;
+    color: #1b1b1b;
+    background-color: #eef2f6;
+    word-break: break-all;
+  }
+
+  main .legend_sec {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: lighter;
+    color: #848484;
+    line-height: 35px;
+    margin-left: 10px;
+    word-break: break-all;
+  }
+
+  /* QUARTO BLOCO */
+
+  main .h2_ter {
+    width: calc(100% - 40px);
+    height: 160px;
+    padding: 40px 20px 40px 20px;
+    font-size: 37px;
+    font-family: "Secular One", sans-serif;
+    color: rgb(226, 226, 226);
+    background-color: #2f3337;
+  }
+
+  .txt_contato {
+    text-align: left;
+    font-size: 20px;
+    font-family: "Secular One", sans-serif;
+    color: rgb(198, 198, 198);
+    word-break: break-all;
+    margin-top: 40px;
+    margin-bottom: -20px;
+  }
+
+  main .mapa {
+    width: 100%;
+    height: 350px;
+  }
+
+  /* FOOTER */
+
+  footer .creditos {
+    width: calc(100% - 40px);
+    height: 200px;
+    padding: 0px 20px;
+    background-color: #202529;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-family: "Secular One", sans-serif;
   }
 }
