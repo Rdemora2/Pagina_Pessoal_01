@@ -15,7 +15,6 @@
 body {
   background-color: #8d99a2;
   width: 90%;
-  margin: 0 auto 0 auto;
   padding-top: 55px;
 }
 
@@ -27,13 +26,15 @@ header {
   font-family: "Secular One", sans-serif;
   display: flex;
   align-items: center;
+  margin: 0px;
 }
 
 header .nav {
   display: flex;
   align-items: center;
   position: absolute;
-  right: 720px;
+  right: 660px;
+  margin-top: -40px;
 }
 
 header .margem_tit {
@@ -51,19 +52,20 @@ header .botao2 {
   text-decoration: none;
 }
 
-header h1 {
-  margin-left: 15px;
+.nome {
+  margin-left: 35px;
   font-family: "Abril Fatface", cursive;
   font-size: 55px;
+  padding-bottom: 40px;
 }
 
 /* PRIMEIRO BLOCO */
 
 main {
   background-color: white;
-  width: 100%;
+  width: calc(100vw - 60px);
   height: 3250px;
-  margin: 65px auto 0px auto;
+  margin: 25px 40px 0px 20px;
 }
 
 main .img_prin {
@@ -290,7 +292,7 @@ footer .creditos {
     display: flex;
     align-items: center;
     position: absolute;
-    right: 170px;
+    right: 140px;
   }
 }
 
@@ -303,6 +305,7 @@ footer .creditos {
     font-family: "Secular One", sans-serif;
     display: flex;
     align-items: center;
+    margin: 0px;
   }
 
   header .margem_tit {
@@ -324,22 +327,23 @@ footer .creditos {
     display: flex;
     align-items: center;
     position: absolute;
-    right: 100px;
+    right: 30px;
   }
 
-  header h1 {
+  .nome {
     margin-left: 15px;
     font-family: "Abril Fatface", cursive;
     font-size: 35px;
+    margin-right: 0px;
   }
 
   /* PRIMEIRO BLOCO */
 
   main {
     background-color: white;
-    width: 100%;
+    width: calc(100vw - 40px);
     height: 3000px;
-    margin: 65px auto 0px auto;
+    margin: 25px 20px 0px 20px;
   }
 
   main .h2_prim {
@@ -485,6 +489,14 @@ footer .creditos {
 }
 
 @media (max-width: 916px) {
+  /* FUNDO GERAL */
+
+  body {
+    background-color: #8d99a2;
+    width: 90vw;
+    padding-top: 55px;
+  }
+
   /* HEADER */
 
   header {
@@ -492,11 +504,12 @@ footer .creditos {
     font-size: 20px;
     font-family: "Secular One", sans-serif;
     display: inline-block;
-    width: 100%;
+    width: 360px;
+    margin: 0 auto 0 auto;
   }
 
   header .nav {
-    width: 100%;
+    width: 320px;
     text-align: center;
     margin-top: -60px;
     position: absolute;
@@ -513,28 +526,28 @@ footer .creditos {
     text-align: center;
     color: #ffffff;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 16px;
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
   }
 
-  h1 {
+  .nome {
     font-family: "Abril Fatface", cursive;
     font-size: 55px;
     text-align: center;
-    margin-top: 0px;
+    margin: 1px;
     padding-bottom: 50px;
+    width: 370px;
   }
 
   /* PRIMEIRO BLOCO */
 
   main {
     background-color: white;
-    width: 100%;
+    width: calc(100vw - 40px);
     height: 2000px;
-    margin: 25px auto 0px auto;
+    margin: 25px 20px 0px 20px;
   }
 
   main .h2_prim {
