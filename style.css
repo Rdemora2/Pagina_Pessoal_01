@@ -29,12 +29,19 @@ header {
   align-items: center;
 }
 
+header .nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 720px;
+}
+
 header .margem_tit {
-  margin-left: 31%;
+  margin-left: 100%;
 }
 
 header .margem_bot {
-  margin-right: 60px;
+  margin-right: 50px;
 }
 
 header .botao2 {
@@ -277,6 +284,13 @@ footer .creditos {
   header .margem_tit {
     margin-left: 1070px;
   }
+
+  header .nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 170px;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -303,6 +317,13 @@ footer .creditos {
     text-align: right;
     color: #dee6ec;
     text-decoration: none;
+  }
+
+  header .nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 100px;
   }
 
   header h1 {
@@ -476,6 +497,9 @@ footer .creditos {
   header .nav {
     width: 100%;
     text-align: center;
+    margin-top: -60px;
+    position: absolute;
+    left: 30px;
   }
 
   header .margem_bot {
@@ -500,6 +524,7 @@ footer .creditos {
     font-size: 55px;
     text-align: center;
     margin-top: 0px;
+    padding-bottom: 50px;
   }
 
   /* PRIMEIRO BLOCO */
