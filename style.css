@@ -509,11 +509,12 @@ footer .creditos {
   }
 
   header .nav {
-    width: 320px;
+    width: 350px;
     text-align: center;
     margin-top: -60px;
     position: absolute;
-    left: 30px;
+    left: 0px;
+    margin-left: 40px;
   }
 
   header .margem_bot {
@@ -534,11 +535,11 @@ footer .creditos {
 
   .nome {
     font-family: "Abril Fatface", cursive;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
-    margin: 1px;
+    margin: 1px 20px;
     padding-bottom: 50px;
-    width: 370px;
+    width: 353px;
   }
 
   /* PRIMEIRO BLOCO */
@@ -547,7 +548,7 @@ footer .creditos {
     background-color: white;
     width: calc(100vw - 40px);
     height: 2000px;
-    margin: 25px 20px 0px 20px;
+    margin: 25px 0px 0px 20px;
   }
 
   main .h2_prim {
