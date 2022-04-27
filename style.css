@@ -537,7 +537,7 @@ footer .creditos {
     font-family: "Abril Fatface", cursive;
     font-size: 60px;
     text-align: center;
-    margin: 1px 20px;
+    margin: 0px 20px 0px 25px;
     padding-bottom: 50px;
     width: 353px;
   }
@@ -546,9 +546,9 @@ footer .creditos {
 
   main {
     background-color: white;
-    width: calc(100vw - 40px);
+    width: 100vw;
     height: 2000px;
-    margin: 25px 0px 0px 20px;
+    margin: 25px 0px 0px 0px;
   }
 
   main .h2_prim {
@@ -614,21 +614,21 @@ footer .creditos {
 
   /* SEGUNDO BLOCO */
   main .logos {
-    width: 80px;
+    width: 100px;
     margin-top: 15px;
   }
 
   main .logo_css {
-    width: 105px;
+    width: 120px;
     margin-top: 6px;
   }
 
   main .ling {
     background-color: #eef2f6;
-    width: 140px;
-    height: 235px;
+    width: 150px;
+    height: 245px;
     font-family: "Secular One", sans-serif;
-    font-size: 26px;
+    font-size: 27px;
     color: #727272;
     padding-top: 30px;
     border-radius: 30px;
@@ -636,18 +636,18 @@ footer .creditos {
 
   .grid_logos {
     display: grid;
-    grid-template-columns: 45% 34%;
+    grid-template-columns: 47% 37%;
     grid-template-rows: 53%;
     margin-top: 25px;
     margin-bottom: 40px;
-    margin-left: -20px;
+    margin-left: 0px;
     justify-content: center;
     text-align: center;
   }
 
   main .conhecimento {
     font-family: "Secular One", sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     color: #848484;
     margin-top: 15px;
   }
@@ -676,7 +676,7 @@ footer .creditos {
   main .h2_sec {
     width: calc(100% - 40px);
     height: 380px;
-    padding: 40px 20px 40px 20px;
+    padding: 60px 20px 30px 20px;
     font-size: 37px;
     font-family: "Secular One", sans-serif;
     color: #1b1b1b;
@@ -686,7 +686,7 @@ footer .creditos {
   main .legend_sec {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight: lighter;
     color: #848484;
     line-height: 35px;
@@ -698,7 +698,7 @@ footer .creditos {
   main .h2_ter {
     width: calc(100% - 40px);
     height: 160px;
-    padding: 40px 20px 40px 20px;
+    padding: 50px 20px 40px 20px;
     font-size: 37px;
     font-family: "Secular One", sans-serif;
     color: rgb(226, 226, 226);
@@ -727,7 +727,7 @@ footer .creditos {
     padding: 0px 20px;
     background-color: #202529;
     color: white;
-    font-size: 22px;
+    font-size: 17px;
     text-align: center;
     display: flex;
     justify-content: center;
