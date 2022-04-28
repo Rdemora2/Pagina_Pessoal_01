@@ -1185,7 +1185,7 @@ footer .creditos {
   main {
     background-color: white;
     width: calc(100vw - 40px);
-    height: 3000px;
+    height: 2300px;
     margin: 25px 20px 0px 20px;
   }
 
@@ -1408,7 +1408,7 @@ footer .creditos {
   main {
     background-color: white;
     width: calc(100vw - 40px);
-    height: 3000px;
+    height: 2300px;
     margin: 25px 20px 0px 20px;
   }
 
@@ -1631,7 +1631,7 @@ footer .creditos {
   main {
     background-color: white;
     width: calc(100vw - 40px);
-    height: 3000px;
+    height: 2300px;
     margin: 25px 20px 0px 20px;
   }
 
@@ -1814,7 +1814,7 @@ footer .creditos {
   body {
     background-color: #8d99a2;
     width: 90vw;
-    padding-top: 55px;
+    padding: 0px;
   }
 
   /* HEADER */
@@ -1857,10 +1857,8 @@ footer .creditos {
     font-family: "Abril Fatface", cursive;
     font-size: 60px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
     margin-left: calc(50vw - 115px);
-    padding-bottom: 50px;
+    padding: 50px 0px 70px 0px;
     width: 230px;
   }
 
@@ -1877,7 +1875,7 @@ footer .creditos {
   main .h2_prim {
     width: calc(100% - 40px);
     height: 200px;
-    padding: 50px 20px 10px 20px;
+    padding: 40px 20px 30px 20px;
     font-size: 35px;
     font-family: "Secular One", sans-serif;
     color: #1b1b1b;
@@ -1962,8 +1960,8 @@ footer .creditos {
     grid-template-columns: 47% 37%;
     grid-template-rows: 53%;
     margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 0px;
+    margin-bottom: 18px;
+    margin-left: -8px;
     justify-content: center;
     text-align: center;
   }
@@ -1999,7 +1997,7 @@ footer .creditos {
   main .h2_sec {
     width: calc(100% - 40px);
     height: 380px;
-    padding: 60px 20px 30px 20px;
+    padding: 50px 20px 50px 20px;
     font-size: 37px;
     font-family: "Secular One", sans-serif;
     color: #1b1b1b;
@@ -2021,7 +2019,7 @@ footer .creditos {
   main .h2_ter {
     width: calc(100% - 40px);
     height: 160px;
-    padding: 50px 20px 40px 20px;
+    padding: 40px 20px 30px 20px;
     font-size: 37px;
     font-family: "Secular One", sans-serif;
     color: rgb(226, 226, 226);
