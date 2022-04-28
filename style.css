@@ -1160,12 +1160,12 @@ footer .creditos {
   }
 
   header .nav {
-    width: 310px;
+    width: 320px;
     text-align: center;
-    margin-top: -60px;
+    margin-top: -62px;
     position: absolute;
     left: 0px;
-    margin-left: calc(50% - 158px);
+    margin-left: calc(50% - 160px);
   }
 
   header .margem_bot {
