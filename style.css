@@ -271,16 +271,9 @@ footer .creditos {
   font-family: "Secular One", sans-serif;
 }
 
-@media (min-width: 1925px) {
+@media (min-width: 2225px) {
   .grid_logos {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25%;
-    margin-top: 60px;
-    margin-bottom: 60px;
     margin-left: 7%;
-    justify-content: center;
-    text-align: center;
   }
 
   header .margem_tit {
@@ -288,9 +281,6 @@ footer .creditos {
   }
 
   header .nav {
-    display: flex;
-    align-items: center;
-    position: absolute;
     right: 140px;
   }
 }
@@ -299,12 +289,7 @@ footer .creditos {
   /* HEADER */
 
   header {
-    color: white;
     font-size: 22px;
-    font-family: "Secular One", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px;
   }
 
   header .margem_tit {
@@ -315,31 +300,9 @@ footer .creditos {
     margin-right: 20px;
   }
 
-  header .botao2 {
-    padding-top: 15px;
-    text-align: right;
-    color: #dee6ec;
-    text-decoration: none;
-  }
-
-  header .nav {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 30px;
-  }
-
-  .nome {
-    margin-left: 40px;
-    font-family: "Abril Fatface", cursive;
-    font-size: 50px;
-    margin-right: 0px;
-  }
-
   /* PRIMEIRO BLOCO */
 
   main {
-    background-color: white;
     width: calc(100vw - 40px);
     height: 3000px;
     margin: 25px 20px 0px 20px;
@@ -347,70 +310,30 @@ footer .creditos {
 
   main .h2_prim {
     width: calc(50% - 100px);
-    height: 610px;
     padding: 170px 50px 30px 50px;
-    float: left;
     font-size: 50px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-  }
-
-  main .legend_prim {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 35px;
   }
 
   /* TITULO SEGUNDO BLOCO */
 
   main .barra1 {
     width: 75%;
-    height: 100px;
-    background-color: #eef2f6;
-    color: #848484;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    text-align: left;
     font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     padding-left: 50px;
-    font-family: "Secular One", sans-serif;
   }
 
   main .barra2 {
-    text-decoration: none;
     width: 25%;
-    height: 100px;
-    background-color: #0098e2;
-    float: right;
-    color: white;
     font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: "Secular One", sans-serif;
   }
 
   /* SEGUNDO BLOCO */
 
   .grid_logos {
-    display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: 25%;
     padding: 40px 0px;
     margin: 0px 2%;
     width: 100%;
-    justify-content: center;
-    text-align: center;
   }
 
   main .logos {
@@ -424,21 +347,10 @@ footer .creditos {
   }
 
   main .ling {
-    background-color: #eef2f6;
     width: 300px;
     height: 410px;
-    font-family: "Secular One", sans-serif;
     font-size: 43px;
-    color: #848484;
     padding-top: 20px;
-    border-radius: 30px;
-  }
-
-  main .conhecimento {
-    font-family: "Secular One", sans-serif;
-    font-size: 24px;
-    color: #848484;
-    margin-top: 20px;
   }
 
   main .marg {
@@ -470,42 +382,14 @@ footer .creditos {
     width: calc(50% - 120px);
     height: 680px;
     padding: 100px 60px 30px 60px;
-    float: right;
     font-size: 50px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-    background-color: #eef2f6;
-  }
-
-  main .legend_sec {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 30px;
-    margin-bottom: 60px;
   }
 
   /* QUARTO BLOCO */
 
-  .h2_ter {
-    width: 50%;
-    height: 540px;
-    float: left;
-    padding-top: 170px;
-    font-size: 60px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(226, 226, 226);
-    background-color: #2f3337;
-  }
-
   .txt_contato {
     margin: 40px 20px 10px 0px;
-    text-align: left;
     font-size: 33px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(198, 198, 198);
   }
 }
 
@@ -513,12 +397,7 @@ footer .creditos {
   /* HEADER */
 
   header {
-    color: white;
     font-size: 22px;
-    font-family: "Secular One", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px;
   }
 
   header .margem_tit {
@@ -529,31 +408,14 @@ footer .creditos {
     margin-right: 20px;
   }
 
-  header .botao2 {
-    padding-top: 15px;
-    text-align: right;
-    color: #dee6ec;
-    text-decoration: none;
-  }
-
-  header .nav {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 30px;
-  }
-
   .nome {
-    margin-left: 40px;
     font-family: "Abril Fatface", cursive;
-    font-size: 50px;
-    margin-right: 0px;
+    font-size: 55px;
   }
 
   /* PRIMEIRO BLOCO */
 
   main {
-    background-color: white;
     width: calc(100vw - 40px);
     height: 3000px;
     margin: 25px 20px 0px 20px;
@@ -561,70 +423,30 @@ footer .creditos {
 
   main .h2_prim {
     width: calc(50% - 100px);
-    height: 610px;
     padding: 170px 50px 30px 50px;
-    float: left;
     font-size: 50px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-  }
-
-  main .legend_prim {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 35px;
   }
 
   /* TITULO SEGUNDO BLOCO */
 
   main .barra1 {
     width: 75%;
-    height: 100px;
-    background-color: #eef2f6;
-    color: #848484;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    text-align: left;
-    font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-size: 35px;
     padding-left: 50px;
-    font-family: "Secular One", sans-serif;
   }
 
   main .barra2 {
-    text-decoration: none;
     width: 25%;
-    height: 100px;
-    background-color: #0098e2;
-    float: right;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: "Secular One", sans-serif;
+    font-size: 30px;
   }
 
   /* SEGUNDO BLOCO */
 
   .grid_logos {
-    display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: 25%;
     padding: 40px 0px;
     margin: 0px 2%;
     width: 100%;
-    justify-content: center;
-    text-align: center;
   }
 
   main .logos {
@@ -638,20 +460,13 @@ footer .creditos {
   }
 
   main .ling {
-    background-color: #eef2f6;
     width: 275px;
     height: 410px;
-    font-family: "Secular One", sans-serif;
     font-size: 43px;
-    color: #848484;
     padding-top: 20px;
-    border-radius: 30px;
   }
 
   main .conhecimento {
-    font-family: "Secular One", sans-serif;
-    font-size: 24px;
-    color: #848484;
     margin-top: 20px;
   }
 
@@ -684,42 +499,14 @@ footer .creditos {
     width: calc(50% - 120px);
     height: 680px;
     padding: 100px 60px 30px 60px;
-    float: right;
     font-size: 50px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-    background-color: #eef2f6;
-  }
-
-  main .legend_sec {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 30px;
-    margin-bottom: 60px;
   }
 
   /* QUARTO BLOCO */
 
-  .h2_ter {
-    width: 50%;
-    height: 540px;
-    float: left;
-    padding-top: 170px;
-    font-size: 60px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(226, 226, 226);
-    background-color: #2f3337;
-  }
-
   .txt_contato {
     margin: 40px 20px 10px 0px;
-    text-align: left;
     font-size: 28px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(198, 198, 198);
   }
 }
 
@@ -727,12 +514,7 @@ footer .creditos {
   /* HEADER */
 
   header {
-    color: white;
     font-size: 20px;
-    font-family: "Secular One", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px;
   }
 
   header .margem_tit {
@@ -743,31 +525,20 @@ footer .creditos {
     margin-right: 20px;
   }
 
-  header .botao2 {
-    padding-top: 15px;
-    text-align: right;
-    color: #dee6ec;
-    text-decoration: none;
-  }
-
   header .nav {
-    display: flex;
-    align-items: center;
-    position: absolute;
     right: 30px;
   }
 
   .nome {
     margin-left: 40px;
     font-family: "Abril Fatface", cursive;
-    font-size: 35px;
+    font-size: 55px;
     margin-right: 0px;
   }
 
   /* PRIMEIRO BLOCO */
 
   main {
-    background-color: white;
     width: calc(100vw - 40px);
     height: 3000px;
     margin: 25px 20px 0px 20px;
@@ -775,70 +546,30 @@ footer .creditos {
 
   main .h2_prim {
     width: calc(50% - 100px);
-    height: 610px;
     padding: 170px 50px 30px 50px;
-    float: left;
     font-size: 50px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-  }
-
-  main .legend_prim {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 35px;
   }
 
   /* TITULO SEGUNDO BLOCO */
 
   main .barra1 {
     width: 75%;
-    height: 100px;
-    background-color: #eef2f6;
-    color: #848484;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    text-align: left;
     font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     padding-left: 50px;
-    font-family: "Secular One", sans-serif;
   }
 
   main .barra2 {
-    text-decoration: none;
     width: 25%;
-    height: 100px;
-    background-color: #0098e2;
-    float: right;
-    color: white;
     font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: "Secular One", sans-serif;
   }
 
   /* SEGUNDO BLOCO */
 
   .grid_logos {
-    display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: 25%;
     padding: 40px 0px;
     margin: 0px 1%;
     width: 100%;
-    justify-content: center;
-    text-align: center;
   }
 
   main .logos {
@@ -852,20 +583,14 @@ footer .creditos {
   }
 
   main .ling {
-    background-color: #eef2f6;
     width: 235px;
     height: 370px;
-    font-family: "Secular One", sans-serif;
     font-size: 40px;
-    color: #848484;
     padding-top: 20px;
-    border-radius: 30px;
   }
 
   main .conhecimento {
-    font-family: "Secular One", sans-serif;
     font-size: 21px;
-    color: #848484;
     margin-top: 17px;
   }
 
@@ -892,42 +617,14 @@ footer .creditos {
     width: calc(50% - 120px);
     height: 680px;
     padding: 100px 60px 30px 60px;
-    float: right;
     font-size: 50px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-    background-color: #eef2f6;
-  }
-
-  main .legend_sec {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 30px;
-    margin-bottom: 60px;
   }
 
   /* QUARTO BLOCO */
 
-  .h2_ter {
-    width: 50%;
-    height: 540px;
-    float: left;
-    padding-top: 170px;
-    font-size: 60px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(226, 226, 226);
-    background-color: #2f3337;
-  }
-
   .txt_contato {
     margin: 40px 20px 10px 0px;
-    text-align: left;
-    font-size: 25px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(198, 198, 198);
+    font-size: 31px;
   }
 }
 
@@ -935,12 +632,7 @@ footer .creditos {
   /* HEADER */
 
   header {
-    color: white;
     font-size: 20px;
-    font-family: "Secular One", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px;
   }
 
   header .margem_tit {
@@ -951,31 +643,15 @@ footer .creditos {
     margin-right: 20px;
   }
 
-  header .botao2 {
-    padding-top: 15px;
-    text-align: right;
-    color: #dee6ec;
-    text-decoration: none;
-  }
-
-  header .nav {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 30px;
-  }
-
   .nome {
     margin-left: 30px;
-    font-family: "Abril Fatface", cursive;
-    font-size: 35px;
-    margin-right: 0px;
+    font-size: 45px;
+    margin-left: 40px;
   }
 
   /* PRIMEIRO BLOCO */
 
   main {
-    background-color: white;
     width: calc(100vw - 40px);
     height: 3000px;
     margin: 25px 20px 0px 20px;
@@ -983,70 +659,30 @@ footer .creditos {
 
   main .h2_prim {
     width: calc(50% - 100px);
-    height: 610px;
     padding: 170px 50px 30px 50px;
-    float: left;
     font-size: 40px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-  }
-
-  main .legend_prim {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 35px;
   }
 
   /* TITULO SEGUNDO BLOCO */
 
   main .barra1 {
     width: 75%;
-    height: 100px;
-    background-color: #eef2f6;
-    color: #848484;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    text-align: left;
     font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     padding-left: 50px;
-    font-family: "Secular One", sans-serif;
   }
 
   main .barra2 {
-    text-decoration: none;
     width: 25%;
-    height: 100px;
-    background-color: #0098e2;
-    float: right;
-    color: white;
     font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: "Secular One", sans-serif;
   }
 
   /* SEGUNDO BLOCO */
 
   .grid_logos {
-    display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: 25%;
     padding: 40px 0px;
     margin: 0px 3%;
     width: 100%;
-    justify-content: center;
-    text-align: center;
   }
 
   main .logos {
@@ -1056,24 +692,17 @@ footer .creditos {
 
   main .logo_css {
     width: 170px;
-    margin-top: 10px;
   }
 
   main .ling {
-    background-color: #eef2f6;
     width: 200px;
     height: 325px;
-    font-family: "Secular One", sans-serif;
     font-size: 35px;
-    color: #848484;
     padding-top: 20px;
-    border-radius: 30px;
   }
 
   main .conhecimento {
-    font-family: "Secular One", sans-serif;
     font-size: 20px;
-    color: #848484;
     margin-top: 17px;
   }
 
@@ -1100,42 +729,14 @@ footer .creditos {
     width: calc(50% - 120px);
     height: 680px;
     padding: 100px 60px 30px 60px;
-    float: right;
     font-size: 50px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-    background-color: #eef2f6;
-  }
-
-  main .legend_sec {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 30px;
-    margin-bottom: 60px;
   }
 
   /* QUARTO BLOCO */
 
-  .h2_ter {
-    width: 50%;
-    height: 540px;
-    float: left;
-    padding-top: 170px;
-    font-size: 60px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(226, 226, 226);
-    background-color: #2f3337;
-  }
-
   .txt_contato {
     margin: 40px 0px 10px 0px;
-    text-align: left;
     font-size: 24px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(198, 198, 198);
   }
 }
 
@@ -1143,12 +744,7 @@ footer .creditos {
   /* HEADER */
 
   header {
-    color: white;
     font-size: 20px;
-    font-family: "Secular One", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px;
   }
 
   header .margem_tit {
@@ -1159,23 +755,12 @@ footer .creditos {
     margin-right: 20px;
   }
 
-  header .botao2 {
-    padding-top: 15px;
-    text-align: right;
-    color: #dee6ec;
-    text-decoration: none;
-  }
-
   header .nav {
-    display: flex;
-    align-items: center;
-    position: absolute;
     right: 30px;
   }
 
   .nome {
     margin-left: 30px;
-    font-family: "Abril Fatface", cursive;
     font-size: 35px;
     margin-right: 0px;
   }
@@ -1183,7 +768,6 @@ footer .creditos {
   /* PRIMEIRO BLOCO */
 
   main {
-    background-color: white;
     width: calc(100vw - 40px);
     height: 2300px;
     margin: 25px 20px 0px 20px;
@@ -1193,75 +777,33 @@ footer .creditos {
     width: calc(50% - 100px);
     height: calc(610px - 200px);
     padding: 170px 50px 30px 50px;
-    float: left;
     font-size: 40px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
   }
 
   main .img_prin {
-    border: none;
-    float: right;
-    width: 50%;
     height: 610px;
-  }
-
-  main .legend_prim {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 35px;
   }
 
   /* TITULO SEGUNDO BLOCO */
 
   main .barra1 {
     width: 75%;
-    height: 100px;
-    background-color: #eef2f6;
-    color: #848484;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    text-align: left;
     font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     padding-left: 50px;
-    font-family: "Secular One", sans-serif;
   }
 
   main .barra2 {
-    text-decoration: none;
     width: 25%;
-    height: 100px;
-    background-color: #0098e2;
-    float: right;
-    color: white;
     font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: "Secular One", sans-serif;
   }
 
   /* SEGUNDO BLOCO */
 
   .grid_logos {
-    display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: 25%;
     padding: 40px 0px;
     margin: 0px 2%;
     width: 100%;
-    justify-content: center;
-    text-align: center;
   }
 
   main .logos {
@@ -1275,20 +817,14 @@ footer .creditos {
   }
 
   main .ling {
-    background-color: #eef2f6;
     width: 180px;
     height: 300px;
-    font-family: "Secular One", sans-serif;
     font-size: 30px;
-    color: #848484;
     padding-top: 20px;
-    border-radius: 30px;
   }
 
   main .conhecimento {
-    font-family: "Secular One", sans-serif;
     font-size: 18px;
-    color: #848484;
     margin-top: 17px;
   }
 
@@ -1315,49 +851,28 @@ footer .creditos {
     width: calc(50% - 120px);
     height: calc(660px - 90px);
     padding: 60px 60px 30px 60px;
-    float: right;
     font-size: 40px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-    background-color: #eef2f6;
   }
 
   main .img_sec {
-    border: none;
-    float: left;
-    width: 50%;
     height: 660px;
-  }
-
-  main .legend_sec {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 30px;
-    margin-bottom: 60px;
   }
 
   /* QUARTO BLOCO */
 
-  .h2_ter {
-    width: 50%;
-    height: 540px;
-    float: left;
-    padding-top: 170px;
-    font-size: 60px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(226, 226, 226);
-    background-color: #2f3337;
+  main .h2_ter {
+    width: calc(50% - 140px);
+    height: 200px;
+    padding: 150px 70px 150px 70px;
   }
 
   .txt_contato {
     margin: 40px 0px 10px 0px;
-    text-align: left;
-    font-size: 20px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(198, 198, 198);
+    font-size: 21px;
+  }
+
+  main .mapa {
+    height: 500px;
   }
 }
 
@@ -1365,12 +880,7 @@ footer .creditos {
   /* HEADER */
 
   header {
-    color: white;
     font-size: 20px;
-    font-family: "Secular One", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px;
   }
 
   header .margem_tit {
@@ -1381,24 +891,13 @@ footer .creditos {
     margin-right: 20px;
   }
 
-  header .botao2 {
-    padding-top: 15px;
-    text-align: right;
-    color: #dee6ec;
-    text-decoration: none;
-  }
-
   header .nav {
-    display: flex;
-    align-items: center;
-    position: absolute;
     right: 30px;
     font-size: 17px;
   }
 
   .nome {
     margin-left: 30px;
-    font-family: "Abril Fatface", cursive;
     font-size: 30px;
     margin-right: 0px;
   }
@@ -1406,9 +905,8 @@ footer .creditos {
   /* PRIMEIRO BLOCO */
 
   main {
-    background-color: white;
     width: calc(100vw - 40px);
-    height: 2300px;
+    height: 2000px;
     margin: 25px 20px 0px 20px;
   }
 
@@ -1416,75 +914,36 @@ footer .creditos {
     width: calc(50% - 100px);
     height: calc(430px - 100px);
     padding: 70px 50px 30px 50px;
-    float: left;
     font-size: 35px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
   }
 
   main .img_prin {
-    border: none;
-    float: right;
-    width: 50%;
     height: 430px;
   }
 
   main .legend_prim {
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 35px;
   }
 
   /* TITULO SEGUNDO BLOCO */
 
   main .barra1 {
     width: 75%;
-    height: 100px;
-    background-color: #eef2f6;
-    color: #848484;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    text-align: left;
     font-size: 27px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     padding-left: 50px;
-    font-family: "Secular One", sans-serif;
   }
 
   main .barra2 {
-    text-decoration: none;
     width: 25%;
-    height: 100px;
-    background-color: #0098e2;
-    float: right;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: "Secular One", sans-serif;
   }
 
   /* SEGUNDO BLOCO */
 
   .grid_logos {
-    display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: 25%;
     padding: 30px 0px;
     margin: 0px 1%;
     width: 100%;
-    justify-content: center;
-    text-align: center;
   }
 
   main .logos {
@@ -1494,24 +953,17 @@ footer .creditos {
 
   main .logo_css {
     width: 130px;
-    margin-top: 10px;
   }
 
   main .ling {
-    background-color: #eef2f6;
     width: 160px;
     height: 270px;
-    font-family: "Secular One", sans-serif;
     font-size: 30px;
-    color: #848484;
     padding-top: 20px;
-    border-radius: 30px;
   }
 
   main .conhecimento {
-    font-family: "Secular One", sans-serif;
     font-size: 18px;
-    color: #848484;
     margin-top: 17px;
   }
 
@@ -1538,49 +990,32 @@ footer .creditos {
     width: calc(50% - 80px);
     height: calc(530px - 90px);
     padding: 60px 40px 30px 40px;
-    float: right;
-    font-size: 30px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
-    background-color: #eef2f6;
+    font-size: 37px;
   }
 
   main .img_sec {
-    border: none;
-    float: left;
-    width: 50%;
     height: 530px;
   }
 
   main .legend_sec {
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 30px;
-    margin-bottom: 60px;
   }
 
   /* QUARTO BLOCO */
 
-  .h2_ter {
-    width: 50%;
-    height: 540px;
-    float: left;
-    padding-top: 170px;
-    font-size: 60px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(226, 226, 226);
-    background-color: #2f3337;
+  main .h2_ter {
+    width: calc(50% - 80px);
+    height: 195px;
+    padding: 80px 40px 80px 40px;
   }
 
   .txt_contato {
     margin: 40px 0px 10px 0px;
-    text-align: left;
-    font-size: 17px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(198, 198, 198);
+    font-size: 18px;
+  }
+
+  main .mapa {
+    height: 355px;
   }
 }
 
@@ -1588,12 +1023,7 @@ footer .creditos {
   /* HEADER */
 
   header {
-    color: white;
     font-size: 20px;
-    font-family: "Secular One", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px;
   }
 
   header .margem_tit {
@@ -1604,24 +1034,13 @@ footer .creditos {
     margin-right: 20px;
   }
 
-  header .botao2 {
-    padding-top: 15px;
-    text-align: right;
-    color: #dee6ec;
-    text-decoration: none;
-  }
-
   header .nav {
-    display: flex;
-    align-items: center;
-    position: absolute;
     right: 30px;
     font-size: 17px;
   }
 
   .nome {
     margin-left: 30px;
-    font-family: "Abril Fatface", cursive;
     font-size: 30px;
     margin-right: 0px;
   }
@@ -1629,7 +1048,6 @@ footer .creditos {
   /* PRIMEIRO BLOCO */
 
   main {
-    background-color: white;
     width: calc(100vw - 40px);
     height: 2300px;
     margin: 25px 20px 0px 20px;
@@ -1639,75 +1057,37 @@ footer .creditos {
     width: calc(50% - 100px);
     height: calc(430px - 100px);
     padding: 70px 50px 30px 50px;
-    float: left;
     font-size: 35px;
-    font-family: "Secular One", sans-serif;
-    color: #1b1b1b;
   }
 
   main .img_prin {
-    border: none;
-    float: right;
-    width: 50%;
     height: 430px;
   }
 
   main .legend_prim {
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 35px;
   }
 
   /* TITULO SEGUNDO BLOCO */
 
   main .barra1 {
     width: 75%;
-    height: 100px;
-    background-color: #eef2f6;
-    color: #848484;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    text-align: left;
     font-size: 27px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     padding-left: 50px;
-    font-family: "Secular One", sans-serif;
   }
 
   main .barra2 {
-    text-decoration: none;
     width: 25%;
-    height: 100px;
-    background-color: #0098e2;
-    float: right;
-    color: white;
     font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: "Secular One", sans-serif;
   }
 
   /* SEGUNDO BLOCO */
 
   .grid_logos {
-    display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: 25%;
     padding: 30px 0px;
     margin: 0px 1%;
     width: 100%;
-    justify-content: center;
-    text-align: center;
   }
 
   main .logos {
@@ -1721,20 +1101,14 @@ footer .creditos {
   }
 
   main .ling {
-    background-color: #eef2f6;
     width: 140px;
     height: 250px;
-    font-family: "Secular One", sans-serif;
     font-size: 25px;
-    color: #848484;
     padding-top: 20px;
-    border-radius: 30px;
   }
 
   main .conhecimento {
-    font-family: "Secular One", sans-serif;
     font-size: 16px;
-    color: #848484;
     margin-top: 17px;
   }
 
@@ -1769,41 +1143,28 @@ footer .creditos {
   }
 
   main .img_sec {
-    border: none;
-    float: left;
-    width: 50%;
     height: 530px;
   }
 
   main .legend_sec {
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    font-weight: lighter;
-    color: #848484;
-    line-height: 30px;
-    margin-bottom: 60px;
   }
 
   /* QUARTO BLOCO */
 
-  .h2_ter {
-    width: 50%;
-    height: 540px;
-    float: left;
-    padding-top: 170px;
-    font-size: 60px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(226, 226, 226);
-    background-color: #2f3337;
+  main .h2_ter {
+    width: calc(50% - 80px);
+    height: 195px;
+    padding: 80px 40px 80px 40px;
   }
 
   .txt_contato {
     margin: 40px 0px 10px 0px;
-    text-align: left;
-    font-size: 17px;
-    font-family: "Secular One", sans-serif;
-    color: rgb(198, 198, 198);
+    font-size: 18px;
+  }
+
+  main .mapa {
+    height: 355px;
   }
 }
 
