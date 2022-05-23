@@ -1,8 +1,8 @@
-# Desafio Final Busertech - Página Pessoal
+# Página Pessoal 01
 
 Projeto de minha página pessoal desenvolvida durante estudos de HTML e CSS
 
 
 PREVIEW:
 
-https://rdemora2.github.io/D.Final---Pagina_Pessoal/
+https://rdemora2.github.io/Pagina_Pessoal_01/
